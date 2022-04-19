@@ -1,3 +1,4 @@
+#The mandatory one
 n=int(input())
 l=[]
 countlist=[]
