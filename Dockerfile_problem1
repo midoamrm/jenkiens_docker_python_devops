@@ -1,0 +1,6 @@
+FROM ubuntu:latest
+RUN apt update
+RUN apt install python3 -y
+WORKDIR /usr/app/src
+copy problem1.py ./
+CMD ["python3","./problem1.py"] 
